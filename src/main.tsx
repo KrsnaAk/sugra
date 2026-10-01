@@ -1,0 +1,13 @@
+import { StrictMode } from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import '@fontsource-variable/space-grotesk';
+import '@fontsource/dm-mono/400.css';
+import '@fontsource/dm-mono/500.css';
+import './index.css';
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+);
